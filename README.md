@@ -9,8 +9,8 @@ GitHub Actions Filter Button for Kata containers is to filter passed or non-requ
 ## How to install
 
 1. Install [TamperMonkey](https://www.tampermonkey.net/) on your Chrome.
-2. Install [GitHub Actions Filter Button](https://greasyfork.org/en/scripts/486753-github-actions-filter-button?locale_override=1) hosted on GreasyFork.
+2. Install [GitHub Actions Filter Button](https://greasyfork.org/en/scripts/497195-github-actions-filter-button?locale_override=1) hosted on GreasyFork.
 
 ## Contributing
 
-You could raise your pull request on [GitHub](https://github.com/justxuewei/gha-filter-button).
+You could raise your pull request on [GitHub](https://github.com/lisongqian/gha-filter-button).
