@@ -1,6 +1,6 @@
 # GitHub Actions Filter Button
 
-GitHub Actions Filter Button for Kata containers is to filter passed or non-required checks in the page of pull request. This can significantly reduce the time it takes to find a failed check. The effect is as follows.
+GitHub Actions Filter Button for Cloud Hypervisor is to filter passed or non-required checks in the page of pull request. This can significantly reduce the time it takes to find a failed check. The effect is as follows.
 
 | Before | After |
 |--------|-------|
