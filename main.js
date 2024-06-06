@@ -2,9 +2,9 @@
 // @name         GitHub Actions Filter Button
 // @namespace    http://www.nxw.name
 // @version      1.0.10
-// @description  Filter Kata Containers passed or non-required checks.
+// @description  Filter Cloud Hypervisor passed or non-required checks.
 // @author       Xuewei Niu
-// @match        *://github.com/kata-containers/kata-containers*
+// @match        *://github.com/cloud-hypervisor/cloud-hypervisor*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // @license      Apache-2.0
@@ -103,7 +103,7 @@ function insertHiddenCheckCssStyle() {
 }
 
 function updateFilterButton(href) {
-    const regex = /github\.com\/kata-containers\/kata-containers\/pull\/\d+(#pullrequestreview-\d+)?(#discussion_r\d+)?(#issuecomment-\d+)?$/;
+    const regex = /github\.com\/cloud-hypervisor\/cloud-hypervisor\/pull\/\d+(#pullrequestreview-\d+)?(#discussion_r\d+)?(#issuecomment-\d+)?$/;
     if (regex.test(href)) {
         console.debug('show filter button', href);
         filterButton.classList.remove('hidden-check');
